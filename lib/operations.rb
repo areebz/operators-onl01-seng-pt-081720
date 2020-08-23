@@ -1,6 +1,5 @@
 def unsafe?(speed)
-  speed == 60
-  !false  
+  if speed == 60
   if speed > 40
         false
   else speed < 60
